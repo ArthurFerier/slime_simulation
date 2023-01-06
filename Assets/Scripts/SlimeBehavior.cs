@@ -13,6 +13,6 @@ public class SlimeBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, 0.001f, 0);
+        transform.Translate(0, 0.003f, 0);
     }
 }
