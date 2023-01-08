@@ -167,8 +167,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81639a3c1b36f01d92e13269db992a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myGameObjectToRespawn: {fileID: 3763964508848765043, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-  numberOfGameObj: 13
+  mainCam: {fileID: 519420031}
+  myGameObjectToRespawn: {fileID: 4791135858816524375, guid: ea721cc9770ee47588f6542fe11e40a9, type: 3}
+  numberOfGameObj: 400
   listOfSpawned: []
 --- !u!1 &519420028
 GameObject:
@@ -254,77 +255,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1733198576
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.751
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 72549125041537063, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763964508848765043, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-      propertyPath: m_Name
-      value: SlimePrefab
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
---- !u!1 &1733198577 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3763964508848765043, guid: 3e642707594f15e88915eadc6ccf1a63, type: 3}
-  m_PrefabInstance: {fileID: 1733198576}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1733198578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733198577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e507c14a4198b9efda5a69f3f3bcc447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
