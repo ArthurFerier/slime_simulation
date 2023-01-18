@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCam: {fileID: 519420031}
   myGameObjectToRespawn: {fileID: 4791135858816524375, guid: ea721cc9770ee47588f6542fe11e40a9, type: 3}
-  numberOfGameObj: 400
+  numberOfGameObj: 100000
   listOfSpawned: []
 --- !u!1 &519420028
 GameObject:
